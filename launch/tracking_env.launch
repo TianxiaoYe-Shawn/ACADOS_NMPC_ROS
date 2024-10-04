@@ -1,0 +1,14 @@
+<launch>
+
+    <node pkg="tf2_ros" type="static_transform_publisher" name="world_to_map" args="0 0 0 0 0 0 1 world map"/>
+    
+    <!-- Run the odom_publisher node -->
+    <node name="gt_publisher" pkg="jackal_controller" type="gt_publisher" output="screen"/>
+
+    <!-- Run the trajectory_publisher node -->
+    <node name="trajectory_publisher" pkg="jackal_controller" type="trajectory_publisher" output="screen"/>
+
+    <!-- Open RViz with a specific configuration file -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find jackal_controller)/rviz/jackal.rviz" output="screen"/>
+</launch>
+
