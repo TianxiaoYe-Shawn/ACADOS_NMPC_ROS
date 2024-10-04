@@ -85,12 +85,11 @@ I choose Python Interface (Currently, Python >= 3.8 is tested).
     
     You should see the result like the following:
     
-    ![Untitled](https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/image.png)
-    
+    ![Untitled](https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/image.png)
     Means you have successfully installed ACAODS
 
 ## Solver Design and Simulation using ACADOS Python Interface
-*First make sure you have successfully [installed ACADOS](https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/README.md#install-acados)*
+*First make sure you have successfully [installed ACADOS](https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/README.md#install-acados)*
 
 In this robot model, system input is `u = [v, w]` where v denotes the linear velocity of the vehicle and w denotes the vehicle's angular velocity. 
 
@@ -103,18 +102,18 @@ The initial states for these three simulations is the same with `X0 = [-2.0, 5.3
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_100_plot.png" alt="First Image Top" width="100%" />
-      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_100_points.png" alt="First Image Bottom" width="100%" />
+      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_100_plot.png" alt="First Image Top" width="100%" />
+      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_100_points.png" alt="First Image Bottom" width="100%" />
       <br>Simulation with 100 points
     </td>
     <td align="center">
-      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_300_plot.png" alt="Second Image Top" width="100%" />
-      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_300_points.png" alt="Second Image Bottom" width="100%" />
+      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_300_plot.png" alt="Second Image Top" width="100%" />
+      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_300_points.png" alt="Second Image Bottom" width="100%" />
       <br>Simulation with 300 points
     </td>
     <td align="center">
-      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_500_plot.png" alt="Third Image Top" width="100%" />
-      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_500_points.png" alt="Third Image Bottom" width="100%" />
+      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_500_plot.png" alt="Third Image Top" width="100%" />
+      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_500_points.png" alt="Third Image Bottom" width="100%" />
       <br>Simulation with 500 points
     </td>
   </tr>
@@ -125,18 +124,18 @@ Below are simulations starting from three different initial states: `X0 = [-2.0,
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_300_plot.png" alt="First Image Top" width="100%" />
-      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_300_points.png" alt="First Image Bottom" width="100%" />
+      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_300_plot.png" alt="First Image Top" width="100%" />
+      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_300_points.png" alt="First Image Bottom" width="100%" />
       <br>Simulation with X0 = [-2.0, 5.3, -0.00629628]
     </td>
     <td align="center">
-      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_300_plot_2.png" alt="Second Image Top" width="100%" />
-      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_300_points_2.png" alt="Second Image Bottom" width="100%" />
+      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_300_plot_2.png" alt="Second Image Top" width="100%" />
+      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_300_points_2.png" alt="Second Image Bottom" width="100%" />
       <br>Simulation with X0 = [-1.0, 3.0, -0.00629628]
     </td>
     <td align="center">
-      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_300_plot_3.png" alt="Third Image Top" width="100%" />
-      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/blob/master/blob/master/sim_300_points_3.png" alt="Third Image Bottom" width="100%" />
+      <img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_300_plot_3.png" alt="Third Image Top" width="100%" />
+      <br><img src="https://github.com/TianxiaoYe-Shawn/ACADOS_NMPC_ROS/blob/master/sim_300_points_3.png" alt="Third Image Bottom" width="100%" />
       <br>Simulation with X0 = [1.0, 5.0, 1.57629628]
     </td>
   </tr>
