@@ -1,6 +1,6 @@
 # Trajectory Tracking using ACADOS and ROS
 
-https://github.com/user-attachments/assets/89e89b3c-f219-4338-b196-8f4bde3d70c3
+https://github.com/user-attachments/assets/d8c6dd66-8fd8-4ec9-8bb8-126d54ccae5c
 
 
 ## Install and Compile ACACOS
