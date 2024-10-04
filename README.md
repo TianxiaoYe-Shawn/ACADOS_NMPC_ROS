@@ -7,7 +7,7 @@ https://github.com/user-attachments/assets/d8c6dd66-8fd8-4ec9-8bb8-126d54ccae5c
 
 following this [tutorial](https://docs.acados.org/installation/index.html) (choose **CMake** part to proceed, not **Make**) to install
 
-If your Ubuntu is running on WSL, follow the **Windows 10+(WSL)** part first
+If your Ubuntu is running on WSL/WSL2, follow the **Windows 10+(WSL)** part first
 
 ## Running Example Interface
 
