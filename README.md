@@ -7,15 +7,15 @@ https://github.com/user-attachments/assets/d8c6dd66-8fd8-4ec9-8bb8-126d54ccae5c
 
 `acados` provides a collection of computationally efficient building blocks tailored to optimal control structured problems, most prominently optimal control problems (OCP) and moving horizon estimation (MHE) problems. Among others, `acados` implements:
 
-modules for the integration of ordinary differential equations (ODE) and differential-algebraic equations (DAE),
+* modules for the integration of ordinary differential equations (ODE) and differential-algebraic equations (DAE),
 
-interfaces to state-of-the-art QP solvers like `HPIPM`, `qpOASES`, `DAQP` and `OSQP`
+* interfaces to state-of-the-art QP solvers like `HPIPM`, `qpOASES`, `DAQP` and `OSQP`
 
-(partial) condensing routines, provided by `HPIPM`
+* (partial) condensing routines, provided by `HPIPM`
 
-nonlinear programming solvers for optimal control structured problems
+* nonlinear programming solvers for optimal control structured problems
 
-real-time algorithms, such as the real-time iteration (RTI) and advanced-step real-time iteration (AS-RTI) algorithms
+* real-time algorithms, such as the real-time iteration (RTI) and advanced-step real-time iteration (AS-RTI) algorithms
 
 The back-end of acados uses the high-performance linear algebra package `BLASFEO`, in order to boost computational efficiency for small to medium scale matrices typical of embedded optimization applications. `MATLAB`, `Octave` and `Python` interfaces can be used to conveniently describe optimal control problems and generate self-contained `C` code that can be readily deployed on embedded platforms.
 
