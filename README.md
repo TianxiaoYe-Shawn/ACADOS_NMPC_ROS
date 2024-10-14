@@ -2,7 +2,7 @@
 
 https://github.com/user-attachments/assets/d8c6dd66-8fd8-4ec9-8bb8-126d54ccae5c
 
-
+## About `acados`
 ## Install and Compile ACACOS
 
 following this [tutorial](https://docs.acados.org/installation/index.html) (choose **CMake** part to proceed, not **Make**) to install
