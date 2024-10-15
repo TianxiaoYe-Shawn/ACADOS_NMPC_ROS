@@ -19,6 +19,8 @@ https://github.com/user-attachments/assets/d8c6dd66-8fd8-4ec9-8bb8-126d54ccae5c
 
 The back-end of acados uses the high-performance linear algebra package `BLASFEO`, in order to boost computational efficiency for small to medium scale matrices typical of embedded optimization applications. `MATLAB`, `Octave` and `Python` interfaces can be used to conveniently describe optimal control problems and generate self-contained `C` code that can be readily deployed on embedded platforms.
 
+## Problem Formlation
+
 ## Install and Compile ACACOS
 
 following this [tutorial](https://docs.acados.org/installation/index.html) (choose **CMake** part to proceed, not **Make**) to install
